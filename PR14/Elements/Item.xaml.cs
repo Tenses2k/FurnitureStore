@@ -18,12 +18,12 @@ using static System.Net.Mime.MediaTypeNames;
 using System.Xml.Linq;
 
 namespace PR14.Elements
-{
+{ 
     /// <summary>
     /// Логика взаимодействия для UserControl1.xaml
     /// </summary>
-    public partial class Item : UserControl
-    {
+     public partial class Item : UserControl
+     {
         public Item(Classes.Item item)
         {
             InitializeComponent();
@@ -39,5 +39,5 @@ namespace PR14.Elements
                 name.Content = item.name;
             }
         }
-    }
+     }       
 }
